@@ -1,0 +1,764 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="14cc3cf4-a5e4-4362-a1ab-d25e7e9f652f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BPBIDB</ID>
+  <Name>BPBIDB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>BPBIDB</DataSourceID>
+  <Schema>
+    <xs:schema id="BPBIDB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="BPBIDB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="8a3274b4-4864-4ae9-b44a-f67f19ccdd1f">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Amaliat" msprop:design-time-name="c296190a-df82-43a6-bfa9-261f49134be7" msprop:DbTableName="Amaliat" msprop:FriendlyName="Amaliat" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Pk" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="0db02e64-1aa8-46db-b39a-67941d5156db" msprop:DbColumnName="Pk" msprop:FriendlyName="Pk" type="xs:long" />
+                  <xs:element name="كد_x0020_بندر" msprop:design-time-name="591e64dc-58bf-458d-ab67-a5e1f7f1ad5c" msprop:DbColumnName="كد بندر" msprop:FriendlyName="كد بندر" type="xs:double" minOccurs="0" />
+                  <xs:element name="نام_x0020_بندر" msprop:design-time-name="f78f7d3b-bbfa-4be3-9cef-b59f043d6f05" msprop:DbColumnName="نام بندر" msprop:FriendlyName="نام بندر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نوع_x0020_تصدی_x0020_بندر" msprop:design-time-name="75d08339-698f-4111-ad91-60198194a941" msprop:DbColumnName="نوع تصدی بندر" msprop:FriendlyName="نوع تصدی بندر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="شمالی_x0020__x002F__x0020_جنوبی" msprop:design-time-name="40bb75b7-3f6c-415d-a6bb-e3983c4e08af" msprop:DbColumnName="شمالی / جنوبی" msprop:FriendlyName="شمالی / جنوبی" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="تاريخ_x0020_عمليات" msprop:design-time-name="445f19d3-2442-46cf-bb14-5fb4b8bb49b8" msprop:DbColumnName="تاريخ عمليات" msprop:FriendlyName="تاريخ عمليات" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="سال" msprop:design-time-name="69e75ee7-7ba3-452c-9319-8eb49441c8f6" msprop:DbColumnName="سال" msprop:FriendlyName="سال" type="xs:double" minOccurs="0" />
+                  <xs:element name="ماه" msprop:design-time-name="4b686003-53fe-47cd-83f0-72e7dc3b55fc" msprop:DbColumnName="ماه" msprop:FriendlyName="ماه" type="xs:double" minOccurs="0" />
+                  <xs:element name="روز" msprop:design-time-name="6608e37d-aa8d-432e-97ec-ce5c9eaf798e" msprop:DbColumnName="روز" msprop:FriendlyName="روز" type="xs:double" minOccurs="0" />
+                  <xs:element name="تاريخ_x0020_عمليات-ميلادي" msprop:design-time-name="fd96f910-cee2-4110-b36d-191adc2a1c25" msprop:DbColumnName="تاريخ عمليات-ميلادي" msprop:FriendlyName="تاريخ عمليات-ميلادي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="سال-ميلادي" msprop:design-time-name="d60c5e45-8fae-4fae-afb4-d5e1ae6372ce" msprop:DbColumnName="سال-ميلادي" msprop:FriendlyName="سال-ميلادي" type="xs:double" minOccurs="0" />
+                  <xs:element name="ماه-ميلادي" msprop:design-time-name="0f0e8a47-99b0-4f5f-93ec-a41739a81753" msprop:DbColumnName="ماه-ميلادي" msprop:FriendlyName="ماه-ميلادي" type="xs:double" minOccurs="0" />
+                  <xs:element name="روز-ميلادي" msprop:design-time-name="1dbed4c9-2ea1-4820-be3a-35c91790d8f5" msprop:DbColumnName="روز-ميلادي" msprop:FriendlyName="روز-ميلادي" type="xs:double" minOccurs="0" />
+                  <xs:element name="ترمينال" msprop:design-time-name="b8ddb519-0758-445a-afc3-a248ee7f5888" msprop:DbColumnName="ترمينال" msprop:FriendlyName="ترمينال" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بهره_x0020_بردار_x0020_ترمينال" msprop:design-time-name="946be765-b9fd-45b4-bb36-18e365bc6ee2" msprop:DbColumnName="بهره بردار ترمينال" msprop:FriendlyName="بهره بردار ترمينال" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="اسكله" msprop:design-time-name="bfdd35e4-ad79-4ed6-9cb6-20e0eed91fc5" msprop:DbColumnName="اسكله" msprop:FriendlyName="اسكله" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="عمليات" msprop:design-time-name="c0730126-347f-4af2-accd-256bb81cee90" msprop:DbColumnName="عمليات" msprop:FriendlyName="عمليات" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كالا" msprop:design-time-name="d53275d2-f4ea-48a3-ad5d-bfa40c5b4283" msprop:DbColumnName="كالا" msprop:FriendlyName="كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نفتي_x0020_-_x0020_غيرنفتي" msprop:design-time-name="f6aebe39-47f2-4449-988f-a3b825177f82" msprop:DbColumnName="نفتي - غيرنفتي" msprop:FriendlyName="نفتي - غيرنفتي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بسته_x0020_بندي" msprop:design-time-name="5805204f-3de2-4ff1-a33c-93827adfbbbd" msprop:DbColumnName="بسته بندي" msprop:FriendlyName="بسته بندي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نوع_x0020_رويه_x0020_گمركي" msprop:design-time-name="42a149c5-dec8-4afe-9df8-f8c1351c4312" msprop:DbColumnName="نوع رويه گمركي" msprop:FriendlyName="نوع رويه گمركي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="رويه_x0020_گمركي" msprop:design-time-name="3dbb414c-b4df-4009-aa09-b79f48415445" msprop:DbColumnName="رويه گمركي" msprop:FriendlyName="رويه گمركي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="تناژ_x0020_كلي" msprop:design-time-name="31b723ea-0f4a-4406-9fc9-5721cbfe97fb" msprop:DbColumnName="تناژ كلي" msprop:FriendlyName="تناژ كلي" type="xs:double" minOccurs="0" />
+                  <xs:element name="تعداد_x0020_كالا" msprop:design-time-name="ace6659e-3ce9-4125-afc2-fefe05a6f064" msprop:DbColumnName="تعداد كالا" msprop:FriendlyName="تعداد كالا" type="xs:double" minOccurs="0" />
+                  <xs:element name="صاحب_x0020__x0020_كالا" msprop:design-time-name="7b8a44bd-4099-43e3-90f5-f5b40fa2bc51" msprop:DbColumnName="صاحب  كالا" msprop:FriendlyName="صاحب  كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IsContainer" msprop:design-time-name="2841fb81-5c9e-4093-8e46-7605181bd6e8" msprop:DbColumnName="IsContainer" msprop:FriendlyName="IsContainer" type="xs:boolean" />
+                  <xs:element name="كانتينري_x0020_-_x0020_غيركانتينري" msprop:design-time-name="d0ca62ed-201e-4040-ac18-ab1145e228f2" msprop:DbColumnName="كانتينري - غيركانتينري" msprop:FriendlyName="كانتينري - غيركانتينري" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="اندازه_x0020__x0020_كانتينر" msprop:design-time-name="6318d324-1011-45ce-8820-523358a29ead" msprop:DbColumnName="اندازه  كانتينر" msprop:FriendlyName="اندازه  كانتينر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نوع_x0020_كانتينر" msprop:design-time-name="f2779d20-8f54-4fce-98aa-e17c2e58b44c" msprop:DbColumnName="نوع كانتينر" msprop:FriendlyName="نوع كانتينر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="پر_x0020_-_x0020_خالي" msprop:design-time-name="b1b48612-843f-4d45-97fb-caa0e982be2c" msprop:DbColumnName="پر - خالي" msprop:FriendlyName="پر - خالي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TEU" msprop:design-time-name="f062cdac-1548-4fca-bc14-827f54f09bb7" msprop:DbColumnName="TEU" msprop:FriendlyName="TEU" type="xs:double" minOccurs="0" />
+                  <xs:element name="BOX" msprop:design-time-name="38cd0c7b-7374-4d31-8af2-8bbacd53445c" msprop:DbColumnName="BOX" msprop:FriendlyName="BOX" type="xs:double" minOccurs="0" />
+                  <xs:element name="FCL-LCL" msprop:design-time-name="ed22a68c-9842-4ff3-91b8-bdce6d9d8828" msprop:DbColumnName="FCL-LCL" msprop:FriendlyName="FCL-LCL" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="محوطه_x0020_-_x0020_يكسره" msprop:design-time-name="6e754a2e-e8c0-486d-b2d1-51e2b7c49e8f" msprop:DbColumnName="محوطه - يكسره" msprop:FriendlyName="محوطه - يكسره" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="انبار" msprop:design-time-name="6cbc2f50-d9bc-4b3b-b3ad-1660b28acbe4" msprop:DbColumnName="انبار" msprop:FriendlyName="انبار" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="تعداد_x0020_كاميون" msprop:design-time-name="d58a7e3c-4685-493f-9d78-a2c5d90519aa" msprop:DbColumnName="تعداد كاميون" msprop:FriendlyName="تعداد كاميون" type="xs:double" minOccurs="0" />
+                  <xs:element name="تعداد_x0020_واگن" msprop:design-time-name="2251a33a-c2d2-4822-90c4-6bc4cdfeecfd" msprop:DbColumnName="تعداد واگن" msprop:FriendlyName="تعداد واگن" type="xs:double" minOccurs="0" />
+                  <xs:element name="نوع_x0020_حمل" msprop:design-time-name="800fc6a8-02de-47e0-bb63-a97647f5f7a1" msprop:DbColumnName="نوع حمل" msprop:FriendlyName="نوع حمل" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="گروه_x0020_نوع_x0020_حمل" msprop:design-time-name="04f99015-0b1f-475a-a036-2c2d2b25d338" msprop:DbColumnName="گروه نوع حمل" msprop:FriendlyName="گروه نوع حمل" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بندر_x0020_تخليه_x0020_-_x0020_بارگيري_x0020_كالا" msprop:design-time-name="c099fdbd-19ba-49fb-8842-d84e16b112eb" msprop:DbColumnName="بندر تخليه - بارگيري كالا" msprop:FriendlyName="بندر تخليه - بارگيري كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بندر_x0020_تخليه_x0020_-_x0020_بارگيري_x0020_انگليسي" msprop:design-time-name="6ad058ba-7463-4a9a-a323-4ff57550faf3" msprop:DbColumnName="بندر تخليه - بارگيري انگليسي" msprop:FriendlyName="بندر تخليه - بارگيري انگليسي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كشور_x0020_مبدا_x0020_كالا" msprop:design-time-name="68c096f1-0565-4bd7-a6b0-2863f3038cfe" msprop:DbColumnName="كشور مبدا كالا" msprop:FriendlyName="كشور مبدا كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كشور_x0020_مقصد_x0020_كالا" msprop:design-time-name="54812978-f8c7-40c2-ad98-3786fd4f33c8" msprop:DbColumnName="كشور مقصد كالا" msprop:FriendlyName="كشور مقصد كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="مرز_x0020_ورود_x0020_كالا" msprop:design-time-name="91ac3e24-33d7-4ab9-9960-9d1cc0697e85" msprop:DbColumnName="مرز ورود كالا" msprop:FriendlyName="مرز ورود كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="مرز_x0020_خروج_x0020_كالا" msprop:design-time-name="d52f3e36-37e3-4dd4-8a07-1a7d65038fb3" msprop:DbColumnName="مرز خروج كالا" msprop:FriendlyName="مرز خروج كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="زيرگروه_x0020_كالا" msprop:design-time-name="14bf1abc-dd00-469d-b84c-73d97182c777" msprop:DbColumnName="زيرگروه كالا" msprop:FriendlyName="زيرگروه كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="گروه_x0020_پايه_x0020_كالا" msprop:design-time-name="d687c854-c161-4cb2-bdf6-60331e0270fd" msprop:DbColumnName="گروه پايه كالا" msprop:FriendlyName="گروه پايه كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نام_x0020_شناور" msprop:design-time-name="31024d9d-34c5-4699-8741-d72df54d1ebe" msprop:DbColumnName="نام شناور" msprop:FriendlyName="نام شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="مليت_x0020_شناور" msprop:design-time-name="ca08831b-b98f-4271-9756-127760e63a7b" msprop:DbColumnName="مليت شناور" msprop:FriendlyName="مليت شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_دو_x0020_حرفي_x0020_مليت_x0020_شناور" msprop:design-time-name="967fea54-1f88-4acd-9c70-b64405584eec" msprop:DbColumnName="كد دو حرفي مليت شناور" msprop:FriendlyName="كد دو حرفي مليت شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نوع_x0020_شناور" msprop:design-time-name="c831dbd7-af57-4710-807a-d97891967a08" msprop:DbColumnName="نوع شناور" msprop:FriendlyName="نوع شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="گروه_x0020_نوع_x0020_شناور" msprop:design-time-name="267ba9a7-44a1-4fd3-a523-69faae1ccdd6" msprop:DbColumnName="گروه نوع شناور" msprop:FriendlyName="گروه نوع شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IMO" msprop:design-time-name="3855f744-380c-44dc-8545-3d7e06d29f05" msprop:DbColumnName="IMO" msprop:FriendlyName="IMO" type="xs:double" minOccurs="0" />
+                  <xs:element name="شماره_x0020_ثبت_x0020_شناور" msprop:design-time-name="dbbf06a3-ac82-4cf0-a813-3dec829de620" msprop:DbColumnName="شماره ثبت شناور" msprop:FriendlyName="شماره ثبت شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GRT" msprop:design-time-name="83915539-9c92-43b0-9fd3-6c6233acaf42" msprop:DbColumnName="GRT" msprop:FriendlyName="GRT" type="xs:double" minOccurs="0" />
+                  <xs:element name="بالا_x0020_-_x0020_زير_x0020_هزارتن" msprop:design-time-name="ec9d2b2b-52c1-4cb9-93e7-0fd1b1b30e6b" msprop:DbColumnName="بالا - زير هزارتن" msprop:FriendlyName="بالا - زير هزارتن" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="تاريخ_x0020_ورود_x0020_شناور" msprop:design-time-name="3dde26c8-1530-49e4-88c8-4ee8dc7a854b" msprop:DbColumnName="تاريخ ورود شناور" msprop:FriendlyName="تاريخ ورود شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نمايندگي_x0020_ورودي_x0020_شناور" msprop:design-time-name="bb4eadb3-eff0-4534-8965-c4829ed7bd13" msprop:DbColumnName="نمايندگي ورودي شناور" msprop:FriendlyName="نمايندگي ورودي شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="تاريخ_x0020_خروج_x0020_شناور" msprop:design-time-name="6ec1c498-e22c-4ff3-9d5e-9e0d757799f4" msprop:DbColumnName="تاريخ خروج شناور" msprop:FriendlyName="تاريخ خروج شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نمايندگي_x0020__x0020_خروجي" msprop:design-time-name="93cd1427-9623-440e-bb90-98defb80c57d" msprop:DbColumnName="نمايندگي  خروجي" msprop:FriendlyName="نمايندگي  خروجي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بندر_x0020_مبدا_x0020_شناور" msprop:design-time-name="aefbd62a-8746-4862-85b4-559fce1f7fe4" msprop:DbColumnName="بندر مبدا شناور" msprop:FriendlyName="بندر مبدا شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بندر_x0020_مبدا_x0020_شناور_x0020_-_x0020_انگليسي" msprop:design-time-name="13fb9606-1399-4014-a6d1-abe57b517caf" msprop:DbColumnName="بندر مبدا شناور - انگليسي" msprop:FriendlyName="بندر مبدا شناور - انگليسي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بندر_x0020_مقصد_x0020_شناور" msprop:design-time-name="8e30bb9b-54b3-4734-9853-51e345a5c18a" msprop:DbColumnName="بندر مقصد شناور" msprop:FriendlyName="بندر مقصد شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="بندر_x0020_مقصد_x0020_شناور_x0020_-_x0020_انگليسي" msprop:design-time-name="02b27480-1e39-4db5-a69e-18dd9ae2be29" msprop:DbColumnName="بندر مقصد شناور - انگليسي" msprop:FriendlyName="بندر مقصد شناور - انگليسي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DWT" msprop:design-time-name="730d7e7d-ef1f-4012-9c8d-34bf9e97a6a0" msprop:DbColumnName="DWT" msprop:FriendlyName="DWT" type="xs:double" minOccurs="0" />
+                  <xs:element name="سال_x0020_ساخت_x0020_شناور_x0020_-_x0020_ميلادي" msprop:design-time-name="64b6bba9-41c4-4b8a-ac91-0a03a442cc9b" msprop:DbColumnName="سال ساخت شناور - ميلادي" msprop:FriendlyName="سال ساخت شناور - ميلادي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="علامت_x0020_خطاب" msprop:design-time-name="e965cffd-c1b4-4495-9edb-82017d3b88f0" msprop:DbColumnName="علامت خطاب" msprop:FriendlyName="علامت خطاب" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="طول" msprop:design-time-name="4ed07e04-23c6-4e07-9b07-3b7f97912f6a" msprop:DbColumnName="طول" msprop:FriendlyName="طول" type="xs:double" minOccurs="0" />
+                  <xs:element name="عرض" msprop:design-time-name="719f724b-46f9-4e59-a1cf-2e0dbfe77afd" msprop:DbColumnName="عرض" msprop:FriendlyName="عرض" type="xs:double" minOccurs="0" />
+                  <xs:element name="NRT" msprop:design-time-name="d16bdcca-ad8a-43ea-a065-7097b16e433a" msprop:DbColumnName="NRT" msprop:FriendlyName="NRT" type="xs:double" minOccurs="0" />
+                  <xs:element name="نوع_x0020_منطقه_x0020_بندري" msprop:design-time-name="12e33ee8-a8dc-4390-bbf6-bdb9ebe1f0fa" msprop:DbColumnName="نوع منطقه بندري" msprop:FriendlyName="نوع منطقه بندري" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نوع_x0020_عمليات" msprop:design-time-name="ad3163b2-1e18-4ff2-b35c-13ff5d460142" msprop:DbColumnName="نوع عمليات" msprop:FriendlyName="نوع عمليات" type="xs:boolean" />
+                  <xs:element name="تناژ_x0020_ناخالص" msprop:design-time-name="3b4d0b67-744c-42c0-954f-f904f3bfed08" msprop:DbColumnName="تناژ ناخالص" msprop:FriendlyName="تناژ ناخالص" type="xs:double" minOccurs="0" />
+                  <xs:element name="تناژ_x0020_خالص" msprop:design-time-name="dc7fc0da-34bf-44f4-bed0-ade9d0597c93" msprop:DbColumnName="تناژ خالص" msprop:FriendlyName="تناژ خالص" type="xs:double" minOccurs="0" />
+                  <xs:element name="TareWeight" msprop:design-time-name="7b8a5784-0e89-4e11-989e-0147dad478d6" msprop:DbColumnName="TareWeight" msprop:FriendlyName="TareWeight" type="xs:double" minOccurs="0" />
+                  <xs:element name="IsRoRo" msprop:design-time-name="a4ee8225-a4b2-4f84-97f0-78319241ea39" msprop:DbColumnName="IsRoRo" msprop:FriendlyName="IsRoRo" type="xs:boolean" />
+                  <xs:element name="تعداد_x0020_كاميون_x0020_حامل" msprop:design-time-name="86a901f6-ba06-48d5-b4e6-d07f4d9c8d53" msprop:DbColumnName="تعداد كاميون حامل" msprop:FriendlyName="تعداد كاميون حامل" type="xs:double" minOccurs="0" />
+                  <xs:element name="وزن_x0020_كاميون_x0020_حامل" msprop:design-time-name="e6c8e6d8-dfe7-4918-8ebf-b921e37def57" msprop:DbColumnName="وزن كاميون حامل" msprop:FriendlyName="وزن كاميون حامل" type="xs:double" minOccurs="0" />
+                  <xs:element name="نوع_x0020_محوطه_x0020_يكسره" msprop:design-time-name="25ea78c3-2e18-4d65-881e-21760a393a56" msprop:DbColumnName="نوع محوطه يكسره" msprop:FriendlyName="نوع محوطه يكسره" type="xs:boolean" />
+                  <xs:element name="تاريخ_x0020_پهلوگيري" msprop:design-time-name="e9baad03-ef0c-477a-8dae-bdf917ee23d9" msprop:DbColumnName="تاريخ پهلوگيري" msprop:FriendlyName="تاريخ پهلوگيري" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="تاريخ_x0020_جدا_x0020_شدن" msprop:design-time-name="06751fc9-c4ca-4110-8e8d-c28150cb5a59" msprop:DbColumnName="تاريخ جدا شدن" msprop:FriendlyName="تاريخ جدا شدن" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="شناسه_x0020_عمليات" msprop:design-time-name="63d7de5e-9ac2-4a79-a539-afb28125fb54" msprop:DbColumnName="شناسه عمليات" msprop:FriendlyName="شناسه عمليات" type="xs:double" minOccurs="0" />
+                  <xs:element name="شناسه_x0020_مشخصات_x0020_بار" msprop:design-time-name="d96726fb-6860-431a-8350-9f8d6e1d3908" msprop:DbColumnName="شناسه مشخصات بار" msprop:FriendlyName="شناسه مشخصات بار" type="xs:double" minOccurs="0" />
+                  <xs:element name="شناسه_x0020_سفر" msprop:design-time-name="9c45ec03-72f5-4244-b02e-47c4604bff01" msprop:DbColumnName="شناسه سفر" msprop:FriendlyName="شناسه سفر" type="xs:double" minOccurs="0" />
+                  <xs:element name="ترتيب" msprop:design-time-name="4d8678be-5d58-4168-8355-1bd2ad5a6532" msprop:DbColumnName="ترتيب" msprop:FriendlyName="ترتيب" type="xs:double" minOccurs="0" />
+                  <xs:element name="شناسه_x0020_تخصيص" msprop:design-time-name="cbba09d4-fc0d-4637-8908-52229ee7591a" msprop:DbColumnName="شناسه تخصيص" msprop:FriendlyName="شناسه تخصيص" type="xs:double" minOccurs="0" />
+                  <xs:element name="شناسه_x0020_وضعيت_x0020_پهلوگيري" msprop:design-time-name="a2ddee77-599d-497f-85c9-7539235dd67e" msprop:DbColumnName="شناسه وضعيت پهلوگيري" msprop:FriendlyName="شناسه وضعيت پهلوگيري" type="xs:double" minOccurs="0" />
+                  <xs:element name="شناسه_x0020_پهلوگيري" msprop:design-time-name="5616f6ed-fa98-4f96-aaf1-b83a6a2a5877" msprop:DbColumnName="شناسه پهلوگيري" msprop:FriendlyName="شناسه پهلوگيري" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_اسكله" msprop:design-time-name="fc46f88f-bbdd-4341-aef5-ead1bb6bdec9" msprop:DbColumnName="كد اسكله" msprop:FriendlyName="كد اسكله" type="xs:double" minOccurs="0" />
+                  <xs:element name="شماره_x0020_اسكله" msprop:design-time-name="064e1c5c-3e18-4c1c-9a9c-ac54082cf7b3" msprop:DbColumnName="شماره اسكله" msprop:FriendlyName="شماره اسكله" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_ترمينال" msprop:design-time-name="f3d21dfc-b3f3-40ab-96ed-0acfc1a50ca6" msprop:DbColumnName="كد ترمينال" msprop:FriendlyName="كد ترمينال" type="xs:double" minOccurs="0" />
+                  <xs:element name="شناسه_x0020_بهره_x0020_بردار" msprop:design-time-name="ed02465b-ed9d-4d29-98b8-cbd0f5e75b50" msprop:DbColumnName="شناسه بهره بردار" msprop:FriendlyName="شناسه بهره بردار" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_كالا" msprop:design-time-name="79ab0df6-4d47-4cf9-957a-98c67b7c34c9" msprop:DbColumnName="كد كالا" msprop:FriendlyName="كد كالا" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_زيرگروه_x0020_كالا" msprop:design-time-name="d771e13f-cda8-4c35-a98d-06947d820dd0" msprop:DbColumnName="كد زيرگروه كالا" msprop:FriendlyName="كد زيرگروه كالا" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_گروه_x0020_پايه_x0020_كالا" msprop:design-time-name="465eeb81-21c4-438b-a943-9d104442e355" msprop:DbColumnName="كد گروه پايه كالا" msprop:FriendlyName="كد گروه پايه كالا" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_بسته_x0020_بندي" msprop:design-time-name="f807fa64-7132-4ae0-ad6c-11d7758e7cb0" msprop:DbColumnName="كد بسته بندي" msprop:FriendlyName="كد بسته بندي" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_رويه_x0020_گمركي" msprop:design-time-name="581b1952-9c6b-43a8-a1b6-f8320342b5ef" msprop:DbColumnName="كد رويه گمركي" msprop:FriendlyName="كد رويه گمركي" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_اندازه_x0020_كانتينر" msprop:design-time-name="38f87dc2-0e22-4289-a0f8-188a14926b0a" msprop:DbColumnName="كد اندازه كانتينر" msprop:FriendlyName="كد اندازه كانتينر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_نوع_x0020_كانتينر" msprop:design-time-name="86cbcb32-de1b-42b9-8c3e-a1d5ee4a8c7a" msprop:DbColumnName="كد نوع كانتينر" msprop:FriendlyName="كد نوع كانتينر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_انبار" msprop:design-time-name="8a3ba81b-7d92-48f1-affa-88ff5fe3e30c" msprop:DbColumnName="كد انبار" msprop:FriendlyName="كد انبار" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_نوع_x0020_حمل" msprop:design-time-name="a85155e1-1abe-42a6-849f-b482dd2ff95f" msprop:DbColumnName="كد نوع حمل" msprop:FriendlyName="كد نوع حمل" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_گروه_x0020_نوع_x0020_حمل" msprop:design-time-name="214d3b21-0822-458d-887a-2bf7d2b0ef57" msprop:DbColumnName="كد گروه نوع حمل" msprop:FriendlyName="كد گروه نوع حمل" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_بندر_x0020_تخليه_x0020_-_x0020_بارگيري_x0020_كالا" msprop:design-time-name="ada6bdce-cc15-4964-8e4e-e64976a9670d" msprop:DbColumnName="كد بندر تخليه - بارگيري كالا" msprop:FriendlyName="كد بندر تخليه - بارگيري كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_نوع_x0020_منطقه_x0020_بندري" msprop:design-time-name="7d85c33f-87dd-4b2c-9b44-a16a3574c3b3" msprop:DbColumnName="كد نوع منطقه بندري" msprop:FriendlyName="كد نوع منطقه بندري" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_شناور" msprop:design-time-name="b4730cfa-51fe-4d73-8bf5-e09a431430e8" msprop:DbColumnName="كد شناور" msprop:FriendlyName="كد شناور" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_مليت_x0020_شناور" msprop:design-time-name="a8a3beee-f3d0-4a47-a47c-7dab49ae18ed" msprop:DbColumnName="كد مليت شناور" msprop:FriendlyName="كد مليت شناور" type="xs:double" minOccurs="0" />
+                  <xs:element name="نام_x0020_فارسي_x0020_شناور" msprop:design-time-name="cc5342b4-8f7f-461e-9f72-c3a1db89b9c9" msprop:DbColumnName="نام فارسي شناور" msprop:FriendlyName="نام فارسي شناور" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_نوع_x0020_شناور" msprop:design-time-name="3c5b385a-1fbb-4c48-b11b-d3b0942e3f07" msprop:DbColumnName="كد نوع شناور" msprop:FriendlyName="كد نوع شناور" type="xs:double" minOccurs="0" />
+                  <xs:element name="VesselType" msprop:design-time-name="1403cffe-7667-4174-a622-827b6a70d818" msprop:DbColumnName="VesselType" msprop:FriendlyName="VesselType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_گروه_x0020_نوع_x0020_شناور" msprop:design-time-name="8aad04e3-862a-441c-bcfc-599f41e150f7" msprop:DbColumnName="كد گروه نوع شناور" msprop:FriendlyName="كد گروه نوع شناور" type="xs:double" minOccurs="0" />
+                  <xs:element name="OutFromCalc" msprop:design-time-name="8b7170a0-6dce-4720-86a6-07e55b36314d" msprop:DbColumnName="OutFromCalc" msprop:FriendlyName="OutFromCalc" type="xs:boolean" />
+                  <xs:element name="RecStatus" msprop:design-time-name="9089562e-beed-4c57-a69e-72bf3563b0cf" msprop:DbColumnName="RecStatus" msprop:FriendlyName="RecStatus" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="InOutType" msprop:design-time-name="5c73fbc8-ac3d-4afc-86a5-42eba85f8366" msprop:DbColumnName="InOutType" msprop:FriendlyName="InOutType" type="xs:boolean" />
+                  <xs:element name="تناژ_x0020_كل_x0020_بار_x0020_اعلام_x0020_شده" msprop:design-time-name="3c0c3c45-d2c6-46d9-aa94-8a3d42991e36" msprop:DbColumnName="تناژ كل بار اعلام شده" msprop:FriendlyName="تناژ كل بار اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="تناژ_x0020_كل_x0020_خالص_x0020_بار_x0020_اعلام_x0020_شده" msprop:design-time-name="ef2d9d66-e7e0-4d28-a98a-0298f13ad8e3" msprop:DbColumnName="تناژ كل خالص بار اعلام شده" msprop:FriendlyName="تناژ كل خالص بار اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="تناژ_x0020_كل_x0020_ناخالص_x0020_بار_x0020_اعلام_x0020_شده" msprop:design-time-name="94e19991-b9c7-4715-80ee-2e42c5188bc8" msprop:DbColumnName="تناژ كل ناخالص بار اعلام شده" msprop:FriendlyName="تناژ كل ناخالص بار اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="تعداد_x0020_كل_x0020_بار_x0020_اعلام_x0020_شده" msprop:design-time-name="e26651ac-30d3-4d92-8114-ff6d4b9f29e5" msprop:DbColumnName="تعداد كل بار اعلام شده" msprop:FriendlyName="تعداد كل بار اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="كل_x0020_تعداد_x0020_كانتينر_x0020_بار_x0020_اعلام_x0020_شده" msprop:design-time-name="2eb341ed-ec4e-4ece-9213-2f84b30c6e94" msprop:DbColumnName="كل تعداد كانتينر بار اعلام شده" msprop:FriendlyName="كل تعداد كانتينر بار اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="TEU_x0020_كل_x0020_بار_x0020_اعلامي" msprop:design-time-name="ddb6ea9f-7ee8-4030-92a4-2f11744540b9" msprop:DbColumnName="TEU كل بار اعلامي" msprop:FriendlyName="TEU كل بار اعلامي" type="xs:double" minOccurs="0" />
+                  <xs:element name="كل_x0020_وزن_x0020_كانتينر_x0020_حامل_x0020_اعلام_x0020_شده" msprop:design-time-name="df92b4b3-502d-45a2-939a-a6bde4044c69" msprop:DbColumnName="كل وزن كانتينر حامل اعلام شده" msprop:FriendlyName="كل وزن كانتينر حامل اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="تعداد_x0020_كل_x0020_كاميون_x0020_حامل_x0020_بار_x0020_اعلام_x0020_شده" msprop:design-time-name="89fb59ec-0e70-433a-b2c0-2eb01fb6badf" msprop:DbColumnName="تعداد كل كاميون حامل بار اعلام شده" msprop:FriendlyName="تعداد كل كاميون حامل بار اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="تناژ_x0020_كل_x0020_كاميون_x0020_حامل_x0020_بار_x0020_اعلام_x0020_شده" msprop:design-time-name="a5d26864-9b71-47a9-9c1b-90a6ee17e0bc" msprop:DbColumnName="تناژ كل كاميون حامل بار اعلام شده" msprop:FriendlyName="تناژ كل كاميون حامل بار اعلام شده" type="xs:double" minOccurs="0" />
+                  <xs:element name="Container_x0020_Type" msprop:design-time-name="d8b996d0-26dd-4b42-bac3-d967f6676354" msprop:DbColumnName="Container Type" msprop:FriendlyName="Container Type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FEType" msprop:design-time-name="2dcdebc3-e59b-4f17-a5e3-34084e3761dc" msprop:DbColumnName="FEType" msprop:FriendlyName="FEType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MoveTypeId" msprop:design-time-name="d25e4b88-a205-4feb-927b-f4fb71462c51" msprop:DbColumnName="MoveTypeId" msprop:FriendlyName="MoveTypeId" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نوع_x0020_جابه_x0020_جايي_x0020_كانتينر" msprop:design-time-name="19e17178-01fb-45fb-9a4d-89a9604eaf47" msprop:DbColumnName="نوع جابه جايي كانتينر" msprop:FriendlyName="نوع جابه جايي كانتينر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_كشور_x0020_بندر_x0020_تخليه_x0020_-_x0020_بارگيري" msprop:design-time-name="fe67d7f1-c332-4225-9229-4123a02cb46f" msprop:DbColumnName="كد كشور بندر تخليه - بارگيري" msprop:FriendlyName="كد كشور بندر تخليه - بارگيري" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_كشور_x0020_مبدا_x0020_كالا" msprop:design-time-name="0c748d54-7f8e-40a4-9546-a3d7da847724" msprop:DbColumnName="كد كشور مبدا كالا" msprop:FriendlyName="كد كشور مبدا كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_كشور_x0020_مقصد_x0020_كالا" msprop:design-time-name="e021907e-c2a9-450b-82e9-231b1faa201a" msprop:DbColumnName="كد كشور مقصد كالا" msprop:FriendlyName="كد كشور مقصد كالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020__x0020_مرز_x0020_ورود" msprop:design-time-name="a2ab9eee-2fe9-4808-b4be-a5fbe046244e" msprop:DbColumnName="كد  مرز ورود" msprop:FriendlyName="كد  مرز ورود" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_مرز_x0020_خروج" msprop:design-time-name="838b198e-226b-4c24-8473-122b1d340dd7" msprop:DbColumnName="كد مرز خروج" msprop:FriendlyName="كد مرز خروج" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_صاحب_x0020_كالا" msprop:design-time-name="1b314df7-9049-4c7a-a889-fad9ea6fe57a" msprop:DbColumnName="كد صاحب كالا" msprop:FriendlyName="كد صاحب كالا" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_نمايندگي_x0020_ورودي_x0020_شناور" msprop:design-time-name="e8e13cc9-1ca5-4ec4-b798-52ba08cb719d" msprop:DbColumnName="كد نمايندگي ورودي شناور" msprop:FriendlyName="كد نمايندگي ورودي شناور" type="xs:double" minOccurs="0" />
+                  <xs:element name="شماره_x0020_سفر" msprop:design-time-name="5021e6fc-fbd9-43dd-a4d6-78bd437d85fd" msprop:DbColumnName="شماره سفر" msprop:FriendlyName="شماره سفر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="شماره_x0020_بوكينگ" msprop:design-time-name="4a4774a4-a713-42ef-8081-fbd25af60d32" msprop:DbColumnName="شماره بوكينگ" msprop:FriendlyName="شماره بوكينگ" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_بندر_x0020_مبدا" msprop:design-time-name="fae88d27-4f53-44f6-99dd-05884cd33692" msprop:DbColumnName="كد بندر مبدا" msprop:FriendlyName="كد بندر مبدا" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_كشور_x0020_بندر_x0020_مبدا" msprop:design-time-name="61a30c43-cece-437d-96bd-dad5b9529839" msprop:DbColumnName="كد كشور بندر مبدا" msprop:FriendlyName="كد كشور بندر مبدا" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_بندر_x0020_مقصد" msprop:design-time-name="cc6a2ba4-0f32-42ab-aed1-06b597d5740d" msprop:DbColumnName="كد بندر مقصد" msprop:FriendlyName="كد بندر مقصد" type="xs:double" minOccurs="0" />
+                  <xs:element name="كد_x0020_كشور_x0020_بندر_x0020_مقصد" msprop:design-time-name="905aa3e0-eba9-4f03-9f06-5d3f4b4ce6c7" msprop:DbColumnName="كد كشور بندر مقصد" msprop:FriendlyName="كد كشور بندر مقصد" type="xs:double" minOccurs="0" />
+                  <xs:element name="شماره_x0020_سفر_x0020_خروجي" msprop:design-time-name="73c853bb-3c74-49cf-95be-87d3d622ab81" msprop:DbColumnName="شماره سفر خروجي" msprop:FriendlyName="شماره سفر خروجي" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_نمايندگي_x0020_خروجي" msprop:design-time-name="e91f758e-fb66-408e-9e21-22d51302dbf3" msprop:DbColumnName="كد نمايندگي خروجي" msprop:FriendlyName="كد نمايندگي خروجي" type="xs:double" minOccurs="0" />
+                  <xs:element name="Containerno" msprop:design-time-name="16e98222-c16c-47e3-96d0-a3b653060f8d" msprop:DbColumnName="Containerno" msprop:FriendlyName="Containerno" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="BarnamehNo" msprop:design-time-name="154f9049-55e8-4639-b63e-a1266d134b11" msprop:DbColumnName="BarnamehNo" msprop:FriendlyName="BarnamehNo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CarNo" msprop:design-time-name="6162fcd2-5254-4bcb-8a15-7eccbc06571b" msprop:DbColumnName="CarNo" msprop:FriendlyName="CarNo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GoodsRemark" msprop:design-time-name="faadb302-d7fb-4326-8427-7d1361b71738" msprop:DbColumnName="GoodsRemark" msprop:FriendlyName="GoodsRemark" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="كد_x0020_كاربر" msprop:design-time-name="d2d7e0f0-6c61-4231-9e95-107d1f625357" msprop:DbColumnName="كد كاربر" msprop:FriendlyName="كد كاربر" type="xs:double" minOccurs="0" />
+                  <xs:element name="نام_x0020_کاربر_x0020_ثبت_x0020_کننده" msprop:design-time-name="17092bca-8fec-4eb6-981d-73490ba728f8" msprop:DbColumnName="نام کاربر ثبت کننده" msprop:FriendlyName="نام کاربر ثبت کننده" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="EDitID" msprop:design-time-name="e6379c94-574a-419e-84f7-4ff476972a53" msprop:DbColumnName="EDitID" msprop:FriendlyName="EDitID" type="xs:double" minOccurs="0" />
+                  <xs:element name="تاريخ_x0020_ثبت" msprop:design-time-name="9ebdc1d4-e7e2-4d9c-b245-b1302671a9ba" msprop:DbColumnName="تاريخ ثبت" msprop:FriendlyName="تاريخ ثبت" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="تاريخ_x0020_ويرايش" msprop:design-time-name="833fbba3-43a4-4d08-ad83-d7b70602d40b" msprop:DbColumnName="تاريخ ويرايش" msprop:FriendlyName="تاريخ ويرايش" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GoodsSubMainGroupId" msprop:design-time-name="746af8dd-57da-40f0-9183-301234c72331" msprop:DbColumnName="GoodsSubMainGroupId" msprop:FriendlyName="GoodsSubMainGroupId" type="xs:double" minOccurs="0" />
+                  <xs:element name="GoodsMainGroupId" msprop:design-time-name="11e9599a-c6d3-4ebb-b732-96beb8f1a128" msprop:DbColumnName="GoodsMainGroupId" msprop:FriendlyName="GoodsMainGroupId" type="xs:double" minOccurs="0" />
+                  <xs:element name="GoodsSubMainGroupFa" msprop:design-time-name="0f392441-1fef-41fb-9519-32b027742179" msprop:DbColumnName="GoodsSubMainGroupFa" msprop:FriendlyName="GoodsSubMainGroupFa" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GoodsSubMainGroupEn" msprop:design-time-name="f1282f2e-3962-4183-96a5-af861b912f99" msprop:DbColumnName="GoodsSubMainGroupEn" msprop:FriendlyName="GoodsSubMainGroupEn" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Remark" msprop:design-time-name="0c354720-eb12-47da-846a-22baa36bacf0" msprop:DbColumnName="Remark" msprop:FriendlyName="Remark" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CreateUserId" msprop:design-time-name="1aa1b940-4e40-4188-a8f6-8fdbcff08434" msprop:DbColumnName="CreateUserId" msprop:FriendlyName="CreateUserId" type="xs:double" minOccurs="0" />
+                  <xs:element name="CreateDate" msprop:design-time-name="18b0573f-2eb4-4ac0-b29f-1aec7ec2e2f6" msprop:DbColumnName="CreateDate" msprop:FriendlyName="CreateDate" type="xs:double" minOccurs="0" />
+                  <xs:element name="EditUserId" msprop:design-time-name="44994f20-5c67-4b6e-b8a3-8ba601417081" msprop:DbColumnName="EditUserId" msprop:FriendlyName="EditUserId" type="xs:double" minOccurs="0" />
+                  <xs:element name="LastEditDate" msprop:design-time-name="6f866920-7b9d-4b27-b5b5-5a8bc085c1e2" msprop:DbColumnName="LastEditDate" msprop:FriendlyName="LastEditDate" type="xs:double" minOccurs="0" />
+                  <xs:element name="VesselTypeGroupEn" msprop:design-time-name="d57304ec-d060-4dc2-b895-32fef5e9b39b" msprop:DbColumnName="VesselTypeGroupEn" msprop:FriendlyName="VesselTypeGroupEn" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="سال_x0020_پهلوگیری" msprop:design-time-name="1c0db93f-83bb-47ed-a80e-f12314447618" msprop:DbColumnName="سال پهلوگیری" msprop:FriendlyName="سال پهلوگیری" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ماه_x0020_پهلوگیری" msprop:design-time-name="387217f5-cc90-4f44-9a2e-909ea8f8ed72" msprop:DbColumnName="ماه پهلوگیری" msprop:FriendlyName="ماه پهلوگیری" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="سال_x0020_ورود" msprop:design-time-name="8ac4bc0d-be98-4414-bb4d-8bfd4e1046cb" msprop:DbColumnName="سال ورود" msprop:FriendlyName="سال ورود" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ماه_x0020_ورود" msprop:design-time-name="cf8d2d01-f488-49ca-ba6c-2ce42f071091" msprop:DbColumnName="ماه ورود" msprop:FriendlyName="ماه ورود" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نوع_x0020_بسته_x0020_بندی" msprop:design-time-name="c9fce929-14c3-4a7a-a0c7-e2c0d0ab2a4c" msprop:DbColumnName="نوع بسته بندی" msprop:FriendlyName="نوع بسته بندی" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="نام_x0020_گروه_x0020_پایه_x0020_کالا" msprop:design-time-name="ba0d152d-796b-49f8-98b4-c3edcea636ac" msprop:DbColumnName="نام گروه پایه کالا" msprop:FriendlyName="نام گروه پایه کالا" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Amaliat" />
+          <xs:field xpath="Pk" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <BPBIDB xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -1,0 +1,936 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e847b743-492e-4f1c-9d2b-49a4f2e03fe4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Amaliat</ID>
+  <Name>Amaliat</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1383" scrolltop="-4855" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8414" y="14711" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Amaliat" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5609" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000e915000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Amaliat" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1383</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4855</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="161">
+            <Shape Id="Pk" Expanded="false">
+              <Attributes>
+                <Attribute Id="Pk" />
+                <Attribute Id="اسكله" />
+                <Attribute Id="انبار" />
+                <Attribute Id="اندازه  كانتينر" />
+                <Attribute Id="بالا - زير هزارتن" />
+                <Attribute Id="بسته بندي" />
+                <Attribute Id="بندر تخليه - بارگيري كالا" />
+                <Attribute Id="بندر مبدا شناور" />
+                <Attribute Id="بندر مقصد شناور" />
+                <Attribute Id="پر - خالي" />
+                <Attribute Id="ترمينال" />
+                <Attribute Id="زيرگروه كالا" />
+                <Attribute Id="صاحب  كالا" />
+                <Attribute Id="عمليات" />
+                <Attribute Id="كالا" />
+                <Attribute Id="كانتينري - غيركانتينري" />
+                <Attribute Id="كشور مبدا كالا" />
+                <Attribute Id="كشور مقصد كالا" />
+                <Attribute Id="گروه پايه كالا" />
+                <Attribute Id="گروه نوع حمل" />
+                <Attribute Id="گروه نوع شناور" />
+                <Attribute Id="محوطه - يكسره" />
+                <Attribute Id="مرز خروج كالا" />
+                <Attribute Id="مرز ورود كالا" />
+                <Attribute Id="مليت شناور" />
+                <Attribute Id="نام شناور" />
+                <Attribute Id="نفتي - غيرنفتي" />
+                <Attribute Id="نمايندگي  خروجي" />
+                <Attribute Id="نمايندگي ورودي شناور" />
+                <Attribute Id="نوع حمل" />
+                <Attribute Id="نوع رويه گمركي" />
+                <Attribute Id="نوع شناور" />
+                <Attribute Id="نوع عمليات" />
+                <Attribute Id="نوع كانتينر" />
+                <Attribute Id="نوع منطقه بندري" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="سال" Expanded="false">
+              <Attributes>
+                <Attribute Id="سال" />
+              </Attributes>
+              <Position x="226" y="20" />
+            </Shape>
+            <Shape Id="نام بندر" Expanded="false">
+              <Attributes>
+                <Attribute Id="نام بندر" />
+              </Attributes>
+              <Position x="226" y="68" />
+            </Shape>
+            <Shape Id="ماه" Expanded="false">
+              <Attributes>
+                <Attribute Id="ماه" />
+              </Attributes>
+              <Position x="226" y="116" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="de9bb687-1186-4160-9f93-2797b993e1c3">
+    <DataSourceViewID>BPBIDB</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="d88a9a22-413c-408e-b1fc-3a0ed091d084">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="76b36192-7916-4e41-bc08-6e1f800a4d17">
+      <ID>Pk</ID>
+      <Name>Pk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="72da8f4e-d9c3-4363-888a-d734489dfc22">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f55910c9-1700-40ca-9731-fab3cea5ce1d">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>Pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d1cfa030-6a45-462d-91cd-7ae4f1f84a4a">
+          <AttributeID>ترمينال</AttributeID>
+          <Name>ترمينال</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="036f1eec-ce67-436f-ad26-0e43e5d4bc98">
+          <AttributeID>عمليات</AttributeID>
+          <Name>عمليات</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="17f99da7-d338-4e30-83f5-ba4cf29387cb">
+          <AttributeID>اسكله</AttributeID>
+          <Name>اسكله</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b4ab7db7-bf6f-4d26-9f85-7c6868ac6473">
+          <AttributeID>كالا</AttributeID>
+          <Name>كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8f55a791-2d53-4af9-a543-59526761c9b6">
+          <AttributeID>نفتي - غيرنفتي</AttributeID>
+          <Name>نفتي - غيرنفتي</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="df23fb85-803f-4537-b747-c8b8c11015e6">
+          <AttributeID>بسته بندي</AttributeID>
+          <Name>بسته بندي</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a94ca86c-d089-4e3b-a5b8-8ba4d58c6d05">
+          <AttributeID>نوع رويه گمركي</AttributeID>
+          <Name>نوع رويه گمركي</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f2b51c51-17df-4139-8a64-09cd64aa26d6">
+          <AttributeID>صاحب  كالا</AttributeID>
+          <Name>صاحب  كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad64b36f-c1f2-4255-9d29-bccd88a02ad1">
+          <AttributeID>كانتينري - غيركانتينري</AttributeID>
+          <Name>كانتينري - غيركانتينري</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="085e776b-176a-4940-9bc4-3035c68b1ce0">
+          <AttributeID>اندازه  كانتينر</AttributeID>
+          <Name>اندازه  كانتينر</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8e9ec84b-785e-4dbb-9f75-dc68c46c2f91">
+          <AttributeID>نوع كانتينر</AttributeID>
+          <Name>نوع كانتينر</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cc1bab83-78cc-4182-b764-16fb8f4d3a1a">
+          <AttributeID>پر - خالي</AttributeID>
+          <Name>پر - خالي</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e2ec7900-c4b8-413b-bda9-f660d0267988">
+          <AttributeID>محوطه - يكسره</AttributeID>
+          <Name>محوطه - يكسره</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="85d3e46a-af7a-4f6a-8fc8-26bafd745eb5">
+          <AttributeID>انبار</AttributeID>
+          <Name>انبار</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e1888b0b-f3d2-4a80-a53a-5db5a3c2e3ba">
+          <AttributeID>نوع حمل</AttributeID>
+          <Name>نوع حمل</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0ec712b5-df5c-4f01-a493-dec7cb97b177">
+          <AttributeID>گروه نوع حمل</AttributeID>
+          <Name>گروه نوع حمل</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8a7d378a-c3e1-44e0-ae07-7b0dab258f82">
+          <AttributeID>بندر تخليه - بارگيري كالا</AttributeID>
+          <Name>بندر تخليه - بارگيري كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0abacbf3-2b02-4e95-8008-034fd5f92df7">
+          <AttributeID>كشور مبدا كالا</AttributeID>
+          <Name>كشور مبدا كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="764e3f25-cb6c-4792-997c-e95b68b5a646">
+          <AttributeID>كشور مقصد كالا</AttributeID>
+          <Name>كشور مقصد كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e56fb6ab-2ee9-4432-930f-154e58f48eb1">
+          <AttributeID>مرز ورود كالا</AttributeID>
+          <Name>مرز ورود كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c46a5807-4c18-4c71-aa37-b27079a21d96">
+          <AttributeID>مرز خروج كالا</AttributeID>
+          <Name>مرز خروج كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="19902b2a-2984-4ea1-8973-de7af449ae2f">
+          <AttributeID>زيرگروه كالا</AttributeID>
+          <Name>زيرگروه كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dc728018-90d4-4f89-b0ce-9317b12d9b4e">
+          <AttributeID>گروه پايه كالا</AttributeID>
+          <Name>گروه پايه كالا</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bc585170-0003-480d-9f42-fc2031870c57">
+          <AttributeID>نام شناور</AttributeID>
+          <Name>نام شناور</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="67aa86d9-acc1-4112-978b-4d8995bdbc49">
+          <AttributeID>مليت شناور</AttributeID>
+          <Name>مليت شناور</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9f0fb7e3-3812-4a5f-9581-976f70d54718">
+          <AttributeID>گروه نوع شناور</AttributeID>
+          <Name>گروه نوع شناور</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2990d32b-8955-4f6c-9142-06a2bc1e735b">
+          <AttributeID>نوع شناور</AttributeID>
+          <Name>نوع شناور</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23b81236-7d4c-4e05-82b4-eac0a8097722">
+          <AttributeID>بالا - زير هزارتن</AttributeID>
+          <Name>بالا - زير هزارتن</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="174effba-e613-41bb-b210-245d22e01269">
+          <AttributeID>نمايندگي ورودي شناور</AttributeID>
+          <Name>نمايندگي ورودي شناور</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8e3ea5cd-df78-452a-9722-15ed6c239977">
+          <AttributeID>نمايندگي  خروجي</AttributeID>
+          <Name>نمايندگي  خروجي</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5c598e78-a73e-4e40-9366-53e9d6c88b90">
+          <AttributeID>بندر مبدا شناور</AttributeID>
+          <Name>بندر مبدا شناور</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="048986cc-a0ed-46a8-93ec-2190614adb89">
+          <AttributeID>بندر مقصد شناور</AttributeID>
+          <Name>بندر مقصد شناور</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a4b92c2b-c256-462b-9ae6-315338b97231">
+          <AttributeID>نوع منطقه بندري</AttributeID>
+          <Name>نوع منطقه بندري</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="93ad913d-902f-4ccc-a9c0-4d6ff094925e">
+          <AttributeID>نوع عمليات</AttributeID>
+          <Name>نوع عمليات</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="beb2c3b7-e597-4b10-8c4c-9027e4f4eef9">
+          <AttributeID>ماه</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>ماه</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6f0b3951-b713-458f-8306-7dcd4047333c">
+          <AttributeID>نام بندر</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>نام بندر</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4fc503cf-31cf-4cda-a481-bd08d427b9c3">
+          <AttributeID>سال</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>سال</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8e99fc34-e158-4ace-aa52-5144212a0d8a">
+      <ID>نام بندر</ID>
+      <Name>نام بندر</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b7334681-d1e4-4000-abfe-182d9927fe3f">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c0dc088-6978-48ca-af83-121590b0ed18">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نام_x0020_بندر</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4a1e3d56-3c4b-4078-906c-972fd8318027">
+      <ID>سال</ID>
+      <Name>سال</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="50cccba1-7396-4c0d-8505-b43d8adeac23">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="951396a9-1498-4fcd-93f6-9dc7e6477d71">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>سال</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb81335b-76f2-489b-90ad-9de9ed78acff">
+      <ID>ماه</ID>
+      <Name>ماه</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a6120e75-9f03-4dff-bc57-04dc3584e05d">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9577ff27-1890-48de-aba1-4f8afc3f268a">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>ماه</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7f261034-34f3-4c41-848e-93dd1d17a33e">
+      <ID>ترمينال</ID>
+      <Name>ترمينال</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9117d1e2-8a9a-4404-a748-789ecd7c07fe">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62e206b5-6223-4a82-b46a-455755f675b0">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>ترمينال</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e340b2f5-d1b1-4061-950e-40535c9d0621">
+      <ID>عمليات</ID>
+      <Name>عمليات</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="154f345f-da5a-4f1e-8e4f-ef538d243438">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a65e3b75-998f-4c56-95de-c93dd877e947">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>عمليات</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="12b8d34b-573d-4410-af40-73f4eeb60b0c">
+      <ID>اسكله</ID>
+      <Name>اسكله</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4966fedd-756e-4599-9155-fa171230e908">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b2eea6f5-70ec-465c-ab8a-a5fa2e092403">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>اسكله</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="267ae6ad-fc02-4942-bcb7-87403d5b16b8">
+      <ID>كالا</ID>
+      <Name>كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="70f71ed2-84bf-4e47-b220-9c02e2ded544">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3de24b28-46c1-4a21-88db-6930bbf955ba">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="795c7af3-1830-4f43-a1f6-54e531d03cba">
+      <ID>نفتي - غيرنفتي</ID>
+      <Name>نفتي - غيرنفتي</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c73c9341-cffb-43e2-b1ef-9178cab674be">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8f85dd2-34c9-4188-9501-d5063dd2ff27">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نفتي_x0020_-_x0020_غيرنفتي</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="72afbc81-fa0c-401a-b201-7d26ec61b315">
+      <ID>بسته بندي</ID>
+      <Name>بسته بندي</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6637779f-4f92-4104-be31-d2ffc6468deb">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7db644cc-310a-4a87-a484-65f178ed0733">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>بسته_x0020_بندي</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="049dbb1d-e850-4c63-91a5-70759e2344d0">
+      <ID>نوع رويه گمركي</ID>
+      <Name>نوع رويه گمركي</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cb8a1a4c-effe-4f86-b144-b6ec9dc7c300">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01d197cf-3a8c-4b76-9ea5-25701cf912bc">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نوع_x0020_رويه_x0020_گمركي</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2153e921-e56d-4510-b30c-c3f14a7e4f23">
+      <ID>صاحب  كالا</ID>
+      <Name>صاحب  كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9eebf3ed-33c9-45d1-959c-b2a5bf80f32d">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ffda3f78-d9d7-4871-bf3a-298798fa7646">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>صاحب_x0020__x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e14bcf90-4dd4-4acb-8191-e9c1bbb02785">
+      <ID>كانتينري - غيركانتينري</ID>
+      <Name>كانتينري - غيركانتينري</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4b046eb4-0783-42be-ac04-6bacf1ceab4b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="842cd319-0cb3-467c-af7f-65dbcbdc1c51">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>كانتينري_x0020_-_x0020_غيركانتينري</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4dd03e07-eaf0-4df6-a886-dc4d12d3b9ba">
+      <ID>اندازه  كانتينر</ID>
+      <Name>اندازه  كانتينر</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9eef11f6-20e5-4acf-874d-bc0a26eb00ef">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc550ba1-9115-4d14-b24c-55fd0e0736c3">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>اندازه_x0020__x0020_كانتينر</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3680673c-7ccf-4d4c-8d7f-b5a3f2adbb29">
+      <ID>نوع كانتينر</ID>
+      <Name>نوع كانتينر</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5585818d-25f9-47f1-9a82-8fd4a1ce8795">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f845a2d5-8948-4ad5-9591-dfe044de657b">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نوع_x0020_كانتينر</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1ad62e1c-dc8d-4a57-9770-9db9fe7277e1">
+      <ID>پر - خالي</ID>
+      <Name>پر - خالي</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e051c3f3-1568-4bef-aefb-53526438b00b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1012f39-a3fe-43c1-a603-890e65e9dcab">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>پر_x0020_-_x0020_خالي</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d7dde5b3-1864-4fbc-98d3-a910e7a75424">
+      <ID>محوطه - يكسره</ID>
+      <Name>محوطه - يكسره</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="871e5893-582f-4b93-ac94-a71d5dfdacd5">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd680e0f-3262-43cc-a9ed-848742909167">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>محوطه_x0020_-_x0020_يكسره</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="49c6181c-403d-4caf-915c-63bd65f41577">
+      <ID>انبار</ID>
+      <Name>انبار</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b24084a-aa10-4352-b602-c3b66da88b22">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="92fc789d-4f02-49bd-a58c-04db16f3bb43">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>انبار</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ff5dd635-0982-4f0a-bfdc-b3f1ba120384">
+      <ID>نوع حمل</ID>
+      <Name>نوع حمل</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="faa8290e-c094-45a9-80ab-f0c39f4f4294">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fab39e7c-e431-4c75-b161-1e438d3539bd">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نوع_x0020_حمل</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="077aafe9-8b99-4796-a0ba-6276adbad37a">
+      <ID>گروه نوع حمل</ID>
+      <Name>گروه نوع حمل</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d8a8d218-5e82-466f-b056-ae4403cfd664">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74fa7dea-b1dc-4499-aa35-819df9f2dae8">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>گروه_x0020_نوع_x0020_حمل</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="67bbd0e6-f503-499b-8155-e69f96b0c21b">
+      <ID>بندر تخليه - بارگيري كالا</ID>
+      <Name>بندر تخليه - بارگيري كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="121c0d27-32ee-480e-b70a-fc825afe89fd">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="33555ae5-2506-42ed-ba55-e27afa6a1ed7">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>بندر_x0020_تخليه_x0020_-_x0020_بارگيري_x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="391b28a1-42d2-4b00-8760-75f226511248">
+      <ID>كشور مبدا كالا</ID>
+      <Name>كشور مبدا كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d09dc256-42a6-42b1-aefc-750a3c133d29">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="601d0a1d-ad7d-4cc5-b828-e07f2cf5c76e">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>كشور_x0020_مبدا_x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2fee0550-7533-433e-91ee-da4ed7f126ef">
+      <ID>كشور مقصد كالا</ID>
+      <Name>كشور مقصد كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5b1c155f-2312-4b48-9bfe-6779b8a2f172">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="366d7072-7b10-4486-a1ab-7cc3b1190a87">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>كشور_x0020_مقصد_x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5df4cef6-b053-4f7f-8fa2-125c015f5655">
+      <ID>مرز ورود كالا</ID>
+      <Name>مرز ورود كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bbb34a7c-ed6a-434d-8d85-1c484c882d8c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1e11a5d2-1a3a-4d6e-918d-062136889f60">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>مرز_x0020_ورود_x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="10c16f01-cd29-4a38-be49-66595f36c628">
+      <ID>مرز خروج كالا</ID>
+      <Name>مرز خروج كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f942363-454d-4776-ab1b-9711f6bdec50">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74477606-10c2-4bf9-a074-18ec5a3392f4">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>مرز_x0020_خروج_x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5031993a-5411-4522-a006-182c92ec6bf1">
+      <ID>زيرگروه كالا</ID>
+      <Name>زيرگروه كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a2691fd5-ba3d-4a60-a211-8531c6cf0a21">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da73df98-930a-4491-96cd-6a13c935798f">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>زيرگروه_x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6d08500c-50ec-426c-bf1c-0f6839e7c018">
+      <ID>گروه پايه كالا</ID>
+      <Name>گروه پايه كالا</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0c9826c8-ef47-4182-9e90-d1d92e820ab7">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="326562ee-e2ec-428f-b7d1-9efe7a3213b3">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>گروه_x0020_پايه_x0020_كالا</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bb46284f-33db-4c37-aa91-79b34931c4d9">
+      <ID>نام شناور</ID>
+      <Name>نام شناور</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b021079e-65ca-4efc-9258-1ff75a8d1fbf">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cfc5f6cd-a2ad-4fd1-85e1-03c907d7dde4">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نام_x0020_شناور</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9dc82e99-5d5c-4e96-822f-da4d6e2ef34a">
+      <ID>مليت شناور</ID>
+      <Name>مليت شناور</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e81afbe6-90b6-4749-a376-ebdcd67ae194">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="28fa092f-1d5c-4058-95ee-adaaeca6eca0">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>مليت_x0020_شناور</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="02c78459-38c6-4149-bd4f-ce812f8f01d1">
+      <ID>گروه نوع شناور</ID>
+      <Name>گروه نوع شناور</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6386d1a9-6e35-42ff-aa72-185e8a66701c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77540316-0b70-4a4f-b890-fbdb43c7d38f">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>گروه_x0020_نوع_x0020_شناور</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2e5eb070-5db4-427f-a4a0-77e828f5463e">
+      <ID>نوع شناور</ID>
+      <Name>نوع شناور</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="37888c35-6cd9-461a-9e36-01cd9a58b2a1">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da9f54c6-ee95-4c37-aeb8-bb95dcbe3bdf">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نوع_x0020_شناور</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ca77ed8-df72-490c-868e-b7629b188247">
+      <ID>بالا - زير هزارتن</ID>
+      <Name>بالا - زير هزارتن</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c50248d3-aec0-4362-b980-89f0e7a8f247">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f35c869-ed5a-48b2-ac68-b95b52770748">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>بالا_x0020_-_x0020_زير_x0020_هزارتن</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="245e8884-a097-4ce5-b3bf-f714e34c1ff0">
+      <ID>نمايندگي ورودي شناور</ID>
+      <Name>نمايندگي ورودي شناور</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="deacc28a-1eee-40e3-9b34-2670ae7d299a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7785706b-e784-4b6c-832e-14d1a76f4d6f">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نمايندگي_x0020_ورودي_x0020_شناور</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="77b85323-09ce-4e3b-bc52-daeb65ac05ca">
+      <ID>نمايندگي  خروجي</ID>
+      <Name>نمايندگي  خروجي</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="53c5e902-b716-4e36-bab9-db079f5f2d5c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3ad49807-557f-4919-bed4-95c38e1d2b2b">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نمايندگي_x0020__x0020_خروجي</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="44933653-094c-4d13-b379-8f6a825b4eca">
+      <ID>بندر مبدا شناور</ID>
+      <Name>بندر مبدا شناور</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="07590866-9110-42d7-a17d-39a26e6abe92">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b7acf1be-e537-4472-9669-dace1c417239">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>بندر_x0020_مبدا_x0020_شناور</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="564b6df3-d0c2-4cc1-aa7d-dbbe3efbe05c">
+      <ID>بندر مقصد شناور</ID>
+      <Name>بندر مقصد شناور</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8cf65194-434a-4bde-a907-857dd9cda387">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f6a82a1-318d-42ca-9a92-07b43d558f7a">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>بندر_x0020_مقصد_x0020_شناور</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a45fea01-8419-4bf3-9bb9-cb07fc7cd1fe">
+      <ID>نوع منطقه بندري</ID>
+      <Name>نوع منطقه بندري</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dc594cbc-724c-417a-aa57-33529e390f3c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef82efc5-ac1a-4721-abbd-ef73d335d417">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نوع_x0020_منطقه_x0020_بندري</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="87490b57-1fb7-495f-8fb5-d9585345e55e">
+      <ID>نوع عمليات</ID>
+      <Name>نوع عمليات</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b3411dc3-8dd8-407a-bfa5-69fca238af5c">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc2c7467-f9f2-4c1d-8db8-4e99a2405a76">
+            <TableID>dbo_Amaliat</TableID>
+            <ColumnID>نوع_x0020_عمليات</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="e2ec8c6f-07a7-44f7-b396-c3bbf53e9f52">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="9ddc639a-8b82-485d-b523-25410111c8ad">
+          <ID>نام بندر</ID>
+          <Name>نام بندر</Name>
+          <SourceAttributeID>نام بندر</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="95009d23-6df9-4b50-b1fa-bd00d7f829c0">
+          <ID>سال</ID>
+          <Name>سال</Name>
+          <SourceAttributeID>سال</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="eeea8d32-60d4-44ef-bee8-86ee2a36abf5">
+          <ID>ماه</ID>
+          <Name>ماه</Name>
+          <SourceAttributeID>ماه</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,226 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1889e56a-5c25-427e-9141-ad2f41d3cd23" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Bushehr Account</ID>
+  <Name>cubDarAmad</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6025" scrolltop="-3479" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17859" y="11959" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="AcnVBalance7000" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5768" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00008816000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_AcnVBalance7000" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6025</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3479</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="ff61c514-dbc6-421f-8e3d-356ec6ccde0a">
+      <ID>Acn V Balance7000</ID>
+      <Name>سنجه های درآمد</Name>
+      <DimensionID>Acn V Balance7000</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a94dd160-005f-498d-8f51-e24bd9001690">
+          <AttributeID>PK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c353bff-27e3-45a8-820c-e5b95ac9af84">
+          <AttributeID>کد حساب</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d065257f-303e-4346-8332-c6708a504a92">
+          <AttributeID>کد معین</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a7d02c56-f554-48f1-875d-ae5532b47694">
+          <AttributeID>کد نوع ارز</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e356c9da-d8de-4fcf-a9a5-4c633f15bb92">
+          <AttributeID>کد بندر</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae756bbe-eaed-4cfa-9b9e-c4d47dfa61f8">
+          <AttributeID>ماه سند</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a253962b-1f6e-4685-bda3-77cce4a90893">
+          <AttributeID>تاریخ سند</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97f1f2f3-ca03-4114-8c32-d4157435e34b">
+          <AttributeID>کد حسابداری</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b1abaee-422f-4537-b7a0-80c8b5d0e9c9">
+          <AttributeID>توضیحات کد حسابداری</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc55a07a-c734-480a-a457-8990b97cf5bc">
+          <AttributeID>سال مالی</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6442e3df-aa5c-4886-954a-8a69fd9aa67e">
+          <AttributeID>شرح کد حساب</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="43afb9f3-3945-4e36-9fad-ea1b076f097b">
+          <AttributeID>شرح کد معین</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dbb59522-bc22-4e1c-b81e-5402a2c9a58f">
+          <AttributeID>نوع ارز</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b14bc611-d686-4feb-923f-dc9a45b313af">
+          <AttributeID>نام بندر</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="ebf13ff9-dc85-4612-8b9c-bed726fffb54">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8de5a4af-cb16-48dd-996c-d83adda84388">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="22ba2e09-893e-405a-bd6d-c57dcf3d9e1a">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="7987d526-d925-4c24-811b-2b8b836da636">
+      <ID>Acn V Balance7000</ID>
+      <Name>سنجه های درآمد</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="2bb7f5e3-e6eb-42b0-979f-9f2da1460b12">
+          <ID>گردش بدهکاری</ID>
+          <Name>گردش بدهکاری</Name>
+          <Source dwd:design-time-name="e61ba438-4c78-49a7-ac44-47431857633a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f29d721e-160b-426c-b114-37dd09e63dfc">
+              <TableID>dbo_AcnVBalance7000</TableID>
+              <ColumnID>Debit</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="92ba4791-1753-47a1-9ea2-4645f35faf74">
+          <ID>گردش بستانکاری</ID>
+          <Name>گردش بستانکاری</Name>
+          <Source dwd:design-time-name="6c552805-4d7b-4d1e-baab-27d795b8ea34">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9af218c7-1907-4388-97d9-8bef09fc0168">
+              <TableID>dbo_AcnVBalance7000</TableID>
+              <ColumnID>Credit</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9ce42b47-d298-49df-8c25-740b2671c19c">
+          <ID>مانده بدهکاری</ID>
+          <Name>مانده بدهکاری</Name>
+          <Source dwd:design-time-name="44b3aa78-7f3a-4b42-9bb6-4327bb6c49e8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2e35f485-36d0-4814-90d0-448fa036a70e">
+              <TableID>dbo_AcnVBalance7000</TableID>
+              <ColumnID>RemDebit</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4286257d-5e2c-46d3-8533-b3979476ca1d">
+          <ID>مانده بستانکاری</ID>
+          <Name>مانده بستانکاری</Name>
+          <Source dwd:design-time-name="ff427f72-9d4c-4b9d-9ba0-fe9c42f39329">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d11b5d9c-c74b-4269-9639-177581e5b26b">
+              <TableID>dbo_AcnVBalance7000</TableID>
+              <ColumnID>RemCredit</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cb097365-53ec-4a31-9986-6b40a9c73a8b">
+          <ID>خالص درآمد</ID>
+          <Name>خالص درآمد</Name>
+          <Source dwd:design-time-name="226726f6-0ce8-4bfb-a8f6-388c1460f382">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a97d44da-b1e3-42a8-860a-26d04b3c2cd7">
+              <TableID>dbo_AcnVBalance7000</TableID>
+              <ColumnID>daramad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="350b28f3-1710-4e2d-b2f4-7f6fbf9d6aed">
+          <CubeDimensionID>Acn V Balance7000</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4b7e2080-251c-4e3b-8a93-0d275c66b720">
+              <AttributeID>PK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2ab1079b-2c99-4e20-a2d5-8d5872e2f8ef">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0ebcf327-c2fb-4d19-a708-57e778bcf7a2">
+                    <TableID>dbo_AcnVBalance7000</TableID>
+                    <ColumnID>PK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="e1de6cf6-ac22-436f-99b6-ad2b0a71ceae">
+    <DataSourceViewID>Bushehr Account</DataSourceViewID>
+  </Source>
+</Cube>

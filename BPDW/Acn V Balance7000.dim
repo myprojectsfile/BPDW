@@ -1,0 +1,526 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9b3c0fb2-e7d4-4489-95dc-593f15c3feca" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Acn V Balance7000</ID>
+  <Name>بعدهای درآمد</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-535" scrolltop="-1720" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8414" y="14711" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="AcnVBalance7000" left="20" top="-3175" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5768" height="11033" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c000088160000192b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_AcnVBalance7000" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-535</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1720</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3175</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="160">
+            <Shape Id="PK" Expanded="false">
+              <Attributes>
+                <Attribute Id="PK" />
+                <Attribute Id="تاریخ سند" />
+                <Attribute Id="توضیحات کد حسابداری" />
+                <Attribute Id="کد بندر" />
+                <Attribute Id="کد حساب" />
+                <Attribute Id="کد حسابداری" />
+                <Attribute Id="کد معین" />
+                <Attribute Id="کد نوع ارز" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="نام بندر" Expanded="false">
+              <Attributes>
+                <Attribute Id="نام بندر" />
+              </Attributes>
+              <Position x="225" y="20" />
+            </Shape>
+            <Shape Id="نوع ارز" Expanded="false">
+              <Attributes>
+                <Attribute Id="نوع ارز" />
+              </Attributes>
+              <Position x="225" y="68" />
+            </Shape>
+            <Shape Id="شرح کد معین" Expanded="false">
+              <Attributes>
+                <Attribute Id="شرح کد معین" />
+              </Attributes>
+              <Position x="225" y="116" />
+            </Shape>
+            <Shape Id="شرح کد حساب" Expanded="false">
+              <Attributes>
+                <Attribute Id="شرح کد حساب" />
+              </Attributes>
+              <Position x="225" y="164" />
+            </Shape>
+            <Shape Id="سال مالی" Expanded="false">
+              <Attributes>
+                <Attribute Id="سال مالی" />
+              </Attributes>
+              <Position x="225" y="212" />
+            </Shape>
+            <Shape Id="ماه سند" Expanded="false">
+              <Attributes>
+                <Attribute Id="ماه سند" />
+              </Attributes>
+              <Position x="225" y="260" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1b09d536-cbd2-4c67-8489-a41f33bf3927">
+    <DataSourceViewID>Bushehr Account</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="ad79852c-0fe0-428a-a845-bf8f5e90fb6f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="83f7bfb9-a61e-418e-9545-e1bb1882d91d">
+      <ID>PK</ID>
+      <Name>PK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e0fa917b-4175-4376-b630-a169dee00dae">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="107b1a06-2bcd-4108-9c8e-bbcb621f1491">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>PK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="91c8599e-1866-4b88-9815-cb10c0ca0067">
+          <AttributeID>کد حساب</AttributeID>
+          <Name>کد حساب</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="934e9bf2-5a6e-4152-b2e9-c51ad3313243">
+          <AttributeID>کد معین</AttributeID>
+          <Name>کد معین</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2cd48439-7136-4881-9156-8a6dbdbb4f7f">
+          <AttributeID>کد نوع ارز</AttributeID>
+          <Name>کد نوع ارز</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="73b161fc-6c91-4930-a7ef-869563c3d222">
+          <AttributeID>کد بندر</AttributeID>
+          <Name>کد بندر</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8e2830b5-a881-4600-a5b8-2ab2055a4e46">
+          <AttributeID>ماه سند</AttributeID>
+          <Name>ماه سند</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7bc35f70-7915-485f-a0dd-ae984d8135e6">
+          <AttributeID>تاریخ سند</AttributeID>
+          <Name>تاریخ سند</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6c8d8436-96d2-4558-91c7-e7cb4f5be378">
+          <AttributeID>کد حسابداری</AttributeID>
+          <Name>کد حسابداری</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7619f902-7c7c-48b1-9ab6-bf1bc47ff5d2">
+          <AttributeID>توضیحات کد حسابداری</AttributeID>
+          <Name>توضیحات کد حسابداری</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="79867ebd-910c-40ec-8d33-f247ad933285">
+          <AttributeID>سال مالی</AttributeID>
+          <Name>سال مالی</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c0730b9c-190b-4c4e-af9e-ce14925a6c6d">
+          <AttributeID>شرح کد حساب</AttributeID>
+          <Name>شرح کد حساب</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="55db9108-b5c0-46fe-96a6-b6ceca3e614c">
+          <AttributeID>شرح کد معین</AttributeID>
+          <Name>شرح کد معین</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6724f179-950a-4009-a91a-ed8ec2591a29">
+          <AttributeID>نوع ارز</AttributeID>
+          <Name>نوع ارز</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="da4ec2f1-c1f2-439f-9969-893c2f983d46">
+          <AttributeID>نام بندر</AttributeID>
+          <Name>نام بندر</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e6ab579c-a3d2-4270-a9b7-829ae0efea65">
+      <ID>کد حساب</ID>
+      <Name>کد حساب</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0c724605-af44-4653-80dd-9e08a82980a6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e27f391-bac8-4655-ada7-3f88f87a907a">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>Ledger</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ae6bf76-e588-4b51-bc4f-cf39344c0e7d">
+      <ID>کد معین</ID>
+      <Name>کد معین</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8733bbf6-6180-49cd-8386-0e324ecaa3d0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5553ffd8-b5bd-48b6-abd7-9163180f5f20">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>Subsidiary</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e673dca6-32c7-433a-8a5d-5ecaf0c79db7">
+      <ID>کد نوع ارز</ID>
+      <Name>کد نوع ارز</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b5c6c1a8-cd6b-4c4c-9e93-3934972727a3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0d14613-27c9-4ea1-b149-9c2a18076f22">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>Detail1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="51d2aad1-1def-4fa4-a303-6a18f81f0185">
+      <ID>کد بندر</ID>
+      <Name>کد بندر</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="067acc84-bf8a-40c8-ac95-cbf2fbf6b602">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5653ce0d-de4d-447d-8777-94fc99ca768e">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>Detail2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="173c4592-14e4-4225-a332-b7ba57e904d4">
+      <ID>ماه سند</ID>
+      <Name>ماه سند</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a501bfe0-fad4-4dcf-a41f-80a1ae449488">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea451091-9db5-47d4-b76b-460c7fab3bd6">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>VoucherMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="007c9768-ffb7-4254-80b2-dd9c5c4ee73c">
+      <ID>تاریخ سند</ID>
+      <Name>تاریخ سند</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f792d5d-9456-4e97-a9a8-fb4b505b4989">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c95a43b2-1540-4db9-a2c7-758b41fc7eac">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>VoucherDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="733f5fea-c544-436f-baaa-666ca2f7b2c3">
+      <ID>کد حسابداری</ID>
+      <Name>کد حسابداری</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3aeb677-70ae-4aa9-a457-93ab580ab70f">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4163182-fd73-4d0d-ab03-9e1b8dda03a4">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>AccountCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="400848af-4e29-44ac-8ddd-83ebd31ed282">
+      <ID>توضیحات کد حسابداری</ID>
+      <Name>توضیحات کد حسابداری</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="07200528-8b40-4e3d-bb86-10116e6114f6">
+          <DataType>WChar</DataType>
+          <DataSize>504</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dcbc270b-7e00-464a-a34c-cdbf8f6ede75">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>WholeDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bc9f95fd-c8cf-441e-8e12-90d68d947f3c">
+      <ID>سال مالی</ID>
+      <Name>سال مالی</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4c06e140-a0bc-4ffe-9ebb-184cecd27e9d">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a739cf37-2cb9-4cc3-a2d0-48bc72a3a778">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c1decbf8-9473-4294-baf2-834bfc6ae322">
+      <ID>شرح کد حساب</ID>
+      <Name>شرح کد حساب</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e39fbbd-5cd3-46a7-8f97-fa03ac894e99">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="86051d68-ec33-489e-87f1-247252823a71">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>ledgerDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4a3dd759-4bba-4dd4-8fca-b8f16293d39d">
+      <ID>شرح کد معین</ID>
+      <Name>شرح کد معین</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="537fa740-f0d3-4909-9ccc-7a7c029d16de">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1084d65-245d-4307-81b0-0f3cf29cb3e4">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>subsDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="23a7af77-2381-4b9e-a853-dcee6a33491c">
+      <ID>نوع ارز</ID>
+      <Name>نوع ارز</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="208f305c-1698-43ea-be24-83f4ffc81a50">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c829c68-a415-49e6-871a-c12183d81b4b">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>curDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0dce8afc-cade-43bf-b7da-5d1316f8793d">
+      <ID>نام بندر</ID>
+      <Name>نام بندر</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="754d53a1-e660-499a-a650-1d565bdcaff8">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d375629-7938-4482-87c4-12279c3f8b5f">
+            <TableID>dbo_AcnVBalance7000</TableID>
+            <ColumnID>portName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="1bdce5fd-06e9-4502-857f-9ea3bd52c6e3">
+      <ID>Hierarchy</ID>
+      <Name>ترتیب سال - بندر</Name>
+      <Levels>
+        <Level dwd:design-time-name="5e361419-f5a7-4b42-ac74-5eb79ad30ba4">
+          <ID>سال مالی</ID>
+          <Name>سال مالی</Name>
+          <SourceAttributeID>سال مالی</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f7c9fc5f-df5e-4441-910d-8027686bfc25">
+          <ID>نام بندر</ID>
+          <Name>نام بندر</Name>
+          <SourceAttributeID>نام بندر</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4403fe59-2976-4cde-bd01-e201a5724bd4">
+          <ID>ماه سند</ID>
+          <Name>ماه سند</Name>
+          <SourceAttributeID>ماه سند</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9f087725-defc-4beb-af44-40f39f485aac">
+          <ID>شرح کد حساب</ID>
+          <Name>شرح کد حساب</Name>
+          <SourceAttributeID>شرح کد حساب</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0b4ccae0-1f78-45c7-b9cd-6043af537c90">
+          <ID>شرح کد معین</ID>
+          <Name>شرح کد معین</Name>
+          <SourceAttributeID>شرح کد معین</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0dd39aa5-25bf-43e1-bcd3-612b52cdd627">
+          <ID>نوع ارز</ID>
+          <Name>نوع ارز</Name>
+          <SourceAttributeID>نوع ارز</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="0382b898-f02c-4643-b471-405f0e1c6658">
+      <ID>Hierarchy 1</ID>
+      <Name>ترتیب بندر - سال</Name>
+      <Levels>
+        <Level dwd:design-time-name="ccdcc768-d10c-4fbf-8945-f1751d5baaa5">
+          <ID>نام بندر</ID>
+          <Name>نام بندر</Name>
+          <SourceAttributeID>نام بندر</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="661ab050-f36e-4d98-a6f0-7f870694d4bf">
+          <ID>سال مالی</ID>
+          <Name>سال مالی</Name>
+          <SourceAttributeID>سال مالی</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5ec88516-c0a1-4f78-8490-a02518f89059">
+          <ID>ماه سند</ID>
+          <Name>ماه سند</Name>
+          <SourceAttributeID>ماه سند</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="242dfd21-7e27-407d-bef9-359d7e8d3aa8">
+          <ID>شرح کد حساب</ID>
+          <Name>شرح کد حساب</Name>
+          <SourceAttributeID>شرح کد حساب</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="05ba8740-7c8a-41c6-b5c8-728810cb2d69">
+          <ID>شرح کد معین</ID>
+          <Name>شرح کد معین</Name>
+          <SourceAttributeID>شرح کد معین</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="9a54e215-8bbc-408c-95ff-8f2b2ad95259">
+      <ID>Hierarchy 2</ID>
+      <Name>ترتیب کد حساب - کد معین</Name>
+      <Levels>
+        <Level dwd:design-time-name="949bb1b9-15d4-466c-b3f0-c4a3a7603082">
+          <ID>شرح کد حساب</ID>
+          <Name>شرح کد حساب</Name>
+          <SourceAttributeID>شرح کد حساب</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="01174f96-056d-43ae-828f-e15494b2efe9">
+          <ID>شرح کد معین</ID>
+          <Name>شرح کد معین</Name>
+          <SourceAttributeID>شرح کد معین</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="13c95c57-79d7-4052-909d-3b901bc02549">
+          <ID>نام بندر</ID>
+          <Name>نام بندر</Name>
+          <SourceAttributeID>نام بندر</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="44f7c2cd-e6c7-4dc6-bc56-3e8c31332b3b">
+          <ID>سال مالی</ID>
+          <Name>سال مالی</Name>
+          <SourceAttributeID>سال مالی</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d5cb9fca-86fa-4fef-99a2-a692385ed008">
+          <ID>ماه سند</ID>
+          <Name>ماه سند</Name>
+          <SourceAttributeID>ماه سند</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="86e6bece-26a3-418c-864a-4e4669de18ec">
+          <ID>نوع ارز</ID>
+          <Name>نوع ارز</Name>
+          <SourceAttributeID>نوع ارز</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

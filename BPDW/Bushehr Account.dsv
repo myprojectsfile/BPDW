@@ -1,0 +1,155 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7ec51b5b-c79c-456b-9912-971b205879ea" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Bushehr Account</ID>
+  <Name>Bushehr Account</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10180" scrolltop="-1985" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18389" y="13282" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="AcnVBalance7000" left="0" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6218" height="11429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004a180000a52c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_AcnVBalance7000" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-10180</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1985</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Bushehr Account</DataSourceID>
+  <Schema>
+    <xs:schema id="Bushehr_x0020_Account" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Bushehr_x0020_Account" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="c3efb6ed-8ad8-4f7b-89c0-401893c1b790">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_AcnVBalance7000" msprop:design-time-name="f37bacc6-ce26-40d5-93c8-283f38345d7f" msprop:FriendlyName="AcnVBalance7000" msprop:DbSchemaName="dbo" msprop:DbTableName="AcnVBalance7000" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ledger" msprop:design-time-name="b8094b3b-7288-4391-9488-f3afc692ee76" msprop:DbColumnName="Ledger" msprop:FriendlyName="کد حساب" type="xs:int" />
+                  <xs:element name="Subsidiary" msprop:design-time-name="cbe46f7b-00a3-4830-9f80-6a2cc60f1390" msprop:DbColumnName="Subsidiary" msprop:FriendlyName="کد معین" type="xs:int" />
+                  <xs:element name="Detail1" msprop:design-time-name="bd67cbca-4a8c-45e6-8c1c-5dc0691cd392" msprop:DbColumnName="Detail1" msprop:FriendlyName="کد نوع ارز" type="xs:int" />
+                  <xs:element name="Detail2" msprop:design-time-name="fc38936f-53ed-437b-b4ac-642c2a6a1603" msprop:DbColumnName="Detail2" msprop:FriendlyName="کد بندر" type="xs:int" />
+                  <xs:element name="FnYear" msprop:design-time-name="82140740-1d94-452c-ad54-6356ed2b5848" msprop:DbColumnName="FnYear" msprop:FriendlyName="شروع سال مالی" type="xs:int" />
+                  <xs:element name="VoucherMonth" msprop:design-time-name="f2328bd2-7010-4adb-a78c-572fbd4fa189" msprop:DbColumnName="VoucherMonth" msprop:FriendlyName="ماه سند" type="xs:unsignedByte" />
+                  <xs:element name="VoucherDate" msprop:design-time-name="f003e69b-826b-43ce-9559-a6628bddc080" msprop:DbColumnName="VoucherDate" msprop:FriendlyName="تاریخ سند" type="xs:int" />
+                  <xs:element name="AccountCode" msdata:ReadOnly="true" msprop:design-time-name="6ddb4b21-3c89-4674-b2cb-ac578570db3f" msprop:DbColumnName="AccountCode" msprop:FriendlyName="کد حسابداری" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="64" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="WholeDesc" msdata:ReadOnly="true" msprop:design-time-name="6ad1e505-e3f5-48ab-a6ca-52509d5d12bf" msprop:DbColumnName="WholeDesc" msprop:FriendlyName="توضیحات کد حسابداری" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="504" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ClassCode3" msdata:ReadOnly="true" msprop:design-time-name="24dd8b3a-4e23-4c5c-965e-150822659467" msprop:DbColumnName="ClassCode3" msprop:FriendlyName="ClassCode3" type="xs:int" minOccurs="0" />
+                  <xs:element name="ItemCode3" msprop:design-time-name="b3fad949-1176-43d5-8cb9-2b73a162064d" msprop:DbColumnName="ItemCode3" msprop:FriendlyName="ItemCode3" type="xs:int" />
+                  <xs:element name="ClassCode4" msdata:ReadOnly="true" msprop:design-time-name="9047b05c-385a-446f-ae38-0b1bd803dbc0" msprop:DbColumnName="ClassCode4" msprop:FriendlyName="ClassCode4" type="xs:int" minOccurs="0" />
+                  <xs:element name="ItemCode4" msprop:design-time-name="35b7a338-127f-454d-b27a-3e033a4b576b" msprop:DbColumnName="ItemCode4" msprop:FriendlyName="ItemCode4" type="xs:int" />
+                  <xs:element name="Debit" msdata:ReadOnly="true" msprop:design-time-name="ce6353d4-864d-46d3-9cd0-f0ed55e7bc3e" msprop:DbColumnName="Debit" msprop:FriendlyName="گردش بدهکاری" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Credit" msdata:ReadOnly="true" msprop:design-time-name="9f9fef42-4354-40dc-9398-5d4c4920ceb7" msprop:DbColumnName="Credit" msprop:FriendlyName="گردش بستانکاری" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RemDebit" msdata:ReadOnly="true" msprop:design-time-name="598ce1a7-078b-48dc-ad29-0d385b10223f" msprop:DbColumnName="RemDebit" msprop:FriendlyName="مانده بدهکاری" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RemCredit" msdata:ReadOnly="true" msprop:design-time-name="4b586480-732f-48f9-a6bf-561037309ff7" msprop:DbColumnName="RemCredit" msprop:FriendlyName="مانده بستانکاری" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="year" msprop:design-time-name="b38f96a2-ff6b-475f-9051-198cd0866283" msprop:DbColumnName="year" msprop:FriendlyName="سال مالی" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ledgerDesc" msprop:design-time-name="f2c56ce4-d6e6-4e70-9c57-dfabad70dc90" msprop:DbColumnName="ledgerDesc" msprop:FriendlyName="شرح کد حساب" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="subsDesc" msprop:Description="" msprop:design-time-name="5d6fc0b3-f895-4eec-92c6-13b6d6fac240" msprop:DbColumnName="subsDesc" msprop:FriendlyName="شرح کد معین" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="curDesc" msprop:Description="" msprop:design-time-name="14399fb9-1565-4549-b669-d17c2d48e083" msprop:DbColumnName="curDesc" msprop:FriendlyName="نوع ارز" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="portName" msprop:design-time-name="fcfd867c-0077-4909-ab15-43787d413beb" msprop:DbColumnName="portName" msprop:FriendlyName="نام بندر" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="daramad" msprop:design-time-name="f0f46cc8-d948-4b79-a880-69ad7143669f" msprop:DbColumnName="daramad" msprop:FriendlyName="خالص درآمد" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="PK" msprop:DbColumnName="PK" msprop:design-time-name="bd3b47a0-9616-4e36-8f09-7c94156478c0" type="xs:long" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_AcnVBalance7000" />
+          <xs:field xpath="PK" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <Bushehr_x0020_Account xmlns="" />
+  </Schema>
+</DataSourceView>
